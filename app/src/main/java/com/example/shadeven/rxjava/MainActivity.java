@@ -55,6 +55,7 @@ public class MainActivity extends Activity {
   @OnClick(R.id.clear_btn)
   public void clear(View view) {
     Log.i(this.getClass().getName(), "Content cleared.");
+    textView.setText("");
   }
 
   @Override
